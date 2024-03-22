@@ -1,12 +1,10 @@
 # This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
-
-# TODO: secret
-Host = 
-	Hostname = 
-	name = 
-	email = 
+#TODO: git secret
+#Host = 
+#	Hostname = 
+#	name = 
+#	email = 
 
 [alias]
 	graph = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
@@ -18,9 +16,4 @@ Host =
 
 [credential "https://github.com"]
 	useHttpPath = true
-	helper = 
-	helper = !/usr/local/bin/gh auth git-credential
-
-[credential "https://gist.github.com"]
-	helper = 
 	helper = !/usr/local/bin/gh auth git-credential
