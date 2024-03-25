@@ -1,26 +1,24 @@
-.grid {
-  display: grid;
-  justify-content: center;
-  align-items: center;
+.center {
   align-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  /* This is better for small screens, once min() is better supported */
-  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
-  gap: 1rem;
-}
-
-.item
-{
+  align-items: center;
   justify-content: center;
-  color: green;
-  background-color: black;
-}
-
-
-.center
-{
   padding: 10em;
-  justify-content: center;
+}
+
+.grid {
   align-content: center;
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+
+  /* This is better for small screens, once min() is better supported */
+
+  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+}
+
+.item {
+  background-color: black;
+  color: green;
+  justify-content: center;
 }
