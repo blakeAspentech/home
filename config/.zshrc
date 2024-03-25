@@ -30,14 +30,16 @@ alias l='ls -AG'
 alias h='cd ~'
 alias lsh='ls -AGoh'
 
-# TODO: Generalize
-alias cat="/Users/blake/DevTools/bash-cat-with-cat/cat.sh"
-
 # TODO: Kate
 alias edit="subl"
 
-alias please="sudo"
+
 alias py="python3"
+
+# Silly
+alias please="sudo"
+alias whereami="pwd"
+alias cat="bash-cat-with-cat/cat.sh" #TODO: localize
 
 # Android specific
 #alias droid="emulator -avd Pixel &> /dev/null &"
