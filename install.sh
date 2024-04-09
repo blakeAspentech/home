@@ -34,7 +34,7 @@ which -s "brew" && {
 
 # fun settings
 gh repo clone GuidoFe/bash-cat-with-cat
-
+gh alias set web 'repo view -w'
 
 
 
