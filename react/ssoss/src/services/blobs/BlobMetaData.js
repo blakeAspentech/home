@@ -11,3 +11,8 @@ class BlobMetaData
 	//bool skipCollabPrompt // "which user would you like to log in as"
 	//Bool? isHidden
 }
+
+class BlobId
+{
+	//string value
+}

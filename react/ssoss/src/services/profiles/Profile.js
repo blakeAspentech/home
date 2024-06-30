@@ -4,10 +4,11 @@ class Profile
 	//string name
 	//string profileId
 	//AuthProfile auth
-	//Set<BlobMetaData> blobs
+	//Dict<BlobId, BlobMetaData> blobs
 	//Theme? userTheme
 	//bool isAutosortingBlobs
 	//Icon? icon
+	//Set<string messageId> ignoredMessages
 
 	
 	// methods
@@ -19,6 +20,7 @@ class Profile
 	//bool resetAllWarnings()
 	
 	//bool addBlob(BlobMetaData)
+	//bool editBlobMetaData(BlobId)
 	//bool removeBlob(BlobId)
 	//bool removeAllBlobs()
 

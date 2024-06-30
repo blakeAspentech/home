@@ -1,7 +1,9 @@
 abstract class Blob
 {
 	// variables
-	//string BlobEnumValue
+	//string BlobEnumValue // TODO: decide if this should exist or be merged with id
+							// considerations: duplicate of same blob
+	//String id
 	//string defaultName
 	//icon? defaultIcon
 	//BlobType blobType
@@ -20,6 +22,7 @@ abstract class Blob
 	//Set<profileId>? CollaborativeBlobUsers
 
 	// methods
+	// constructor(from JS)
 	//bool removeAllBlobAuth()
 	//bool addBlobAuth(BlobAuth) // BlobAuth should contain BlobEnum
 	//bool removeBlobAuth(profileId)

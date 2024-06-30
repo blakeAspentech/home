@@ -1,11 +1,14 @@
 class BlobManager
 {
 	//Dict<String blobId, Blob> blobs;
-	//dict<BlobType, blob> creationBlobs
+	//dict<BlobType, Blob> creationBlobs
 	
 	// methods
 	// addBlob()
-	// importBlob()
-	// removeBlob()
+	// importBlob(string)
+	// removeBlob(blobId)
+
+	// editBlob(blobId) // cannot edit defaults, warn for imports?
+	// removeAllBlobs(optional BlobType) // does not remove defaults no matter what
 
 }

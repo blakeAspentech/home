@@ -113,15 +113,20 @@
   stroke-width: .25em;
 }
 
+.test
+{
+  opacity: 0;
+}
+
 @keyframes expand-in {
   from {
     animation-timing-function: linear;
     scale: 1 0;
-    opacity: 0;
+    color: #FFFFF00;
   }
   to {
     scale: 1 1;
-    opacity: 1;
+    color: #FFFFFFF;
     animation-timing-function: ease;
   }
 }
