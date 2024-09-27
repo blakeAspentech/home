@@ -1,6 +1,7 @@
 import logo from './resources/raccoonlogo.PNG';
 import './App.css';
 import Guideline from './anims.js';
+import './services/blobs/Blob.tsx';
 
 function App() {
   //<img src={logo} className="App-logo" alt="logo" />
