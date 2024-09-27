@@ -110,7 +110,7 @@
   animation-delay: 0s;
   animation-fill-mode: forwards;
   stroke: darkorange;
-  stroke-width: .25em;
+  strokeWidth: .25em;
 }
 
 .test
