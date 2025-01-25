@@ -28,7 +28,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     //animation: App-logo-spin infinite 20s linear;
   }
@@ -40,7 +40,7 @@
   }
   #curveTop2 {
   }
-}
+}*/
 
 .body-content {
   background-color: #282c34;
@@ -122,11 +122,11 @@
   from {
     animation-timing-function: linear;
     scale: 1 0;
-    color: #FFFFF00;
+    color: #FFFFFF00;
   }
   to {
     scale: 1 1;
-    color: #FFFFFFF;
+    color: #FFFFFFFF;
     animation-timing-function: ease;
   }
 }

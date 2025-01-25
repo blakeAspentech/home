@@ -9,11 +9,12 @@ class Profile
 	//bool isAutosortingBlobs
 	//Icon? icon
 	//Set<string messageId> ignoredMessages
+	Dict<SysId, double> blobSize
 
 	
 	// methods
 	//constructor(new)
-	//constructor(string)
+	//constructor(string) (imported user data)
 	//Set<BlobMetaData> getAllBlobs()
 	//bool resetPromptsForBlob(BlobId)
 	//bool resetAllPrompts()

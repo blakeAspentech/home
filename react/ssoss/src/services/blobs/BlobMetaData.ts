@@ -1,3 +1,5 @@
+import { ContentBlob } from "./ContentBlob.tsx";
+
 class BlobMetaData
 {
 	// this is all the info for one blob for one user, NOT counting auth
@@ -8,11 +10,12 @@ class BlobMetaData
 	//int uses // for tracking auto sort
 	//int? pinnedPosition
 	//string? defaultProfileId // which collab user to use
-	//bool skipCollabPrompt // "which user would you like to log in as"
+	//bool? skipCollabPrompt // "which user would you like to log in as"
 	//Bool? isHidden
 }
 
 class BlobId
 {
+	//test = new ContentBlob();
 	//string value
 }

@@ -1,7 +1,28 @@
+import { ContentBlob } from "./ContentBlob.tsx";
+
 class BlobManager
 {
 	//Dict<String blobId, Blob> blobs;
-	//dict<BlobType, Blob> creationBlobs
+
+	static testBlob:ContentBlob = new ContentBlob(); //todo: figure out how args work
+	static defaultBlobs:Map<string,ContentBlob> = new Map<string,ContentBlob>([[
+		"test",this.testBlob
+	
+	
+	]]);
+	
+	
+	customTestBlob:ContentBlob = new ContentBlob();
+	customBlobs:Map<string,ContentBlob>;
+
+
+	BlobManager()
+	{
+		
+		this.customBlobs = new Map<string,ContentBlob>();
+		this.customBlobs.set('customTest',this.customTestBlob);
+		return;
+	}
 	
 	// methods
 	// addBlob()
@@ -12,3 +33,4 @@ class BlobManager
 	// removeAllBlobs(optional BlobType) // does not remove defaults no matter what
 
 }
+

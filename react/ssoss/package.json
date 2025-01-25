@@ -2,6 +2,10 @@
   "name": "ssoss",
   "version": "0.1.0",
   "private": true,
+  "description": "ssoss is a content consolidation app",
+  "license": "MIT",
+  "main": "main.js",
+  "type": "commonjs",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -64,7 +68,10 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "web": "node scripts/start.js",
     "start": "node scripts/start.js",
+    "native": "electron .",
+    "app": "electron .",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
@@ -87,6 +94,7 @@
     ]
   },
   "devDependencies": {
+    "electron": "^33.2.1",
     "gh-pages": "6.1.1"
   },
   "jest": {

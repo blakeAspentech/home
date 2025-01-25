@@ -1,11 +1,13 @@
-import logo from './resources/raccoonlogo.PNG';
-import './App.css';
-import Guideline from './anims.js';
-import './services/blobs/Blob.tsx';
+//import logo from './resources/raccoonlogo.PNG';
+require('./App.css');
+Guideline = require('./anims.js');
+require('./services/blobs/ContentBlob.tsx');
 
 function App() {
   //<img src={logo} className="App-logo" alt="logo" />
+  console.log("werg")
   return (
+    
     <div className="App">
       <div className="App-header">
         
@@ -26,7 +28,7 @@ function App() {
       <div className="body-content">
         <div className="content"></div>
         <footer>
-          <small id="copyright">Distributed under the MIT license, copyright 2024</small>
+          <small id="copyright">Distributed under MIT license, copyright 2024</small>
       </footer>
 
       </div>
